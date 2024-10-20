@@ -1,5 +1,4 @@
 # Git Commands :-
-
 ## 📂 Repository Management
 - **Create a new repository**: 
   git init
@@ -67,3 +66,56 @@
   git stash apply
 - **List stashed changes**: 
   git stash list
+
+  ls
+pwd
+mkdir Github
+cd Github
+pwd
+mkdir git-tutorial
+ls
+cd git-tutorial
+pwd
+clear
+vim hello-dosto.txt
+cat hello-dosto.txt
+ls
+ls -l
+rm hello-dosto.txt
+vim hello-dosto.txt
+cat hello-dosto.txt
+git init
+ls -a
+git status
+touch nibba.txt nibbi.txt
+git add nibbi.txt
+git add nibba.txt
+git rm --cached nibba.txt
+rm nibba.txt
+touch nibba.txt
+git add nibba.txt
+git add hello-dosto.txt
+git commit -m "adding f1 f2 f3 hello-dosto nibba nibbi"
+git config --global user.name "Mikerazer"
+git config --global user.email "mikerazer@gmail.com"
+rm nibbi.txt
+git restore nibbi.txt
+vim nibbi.txt
+git add nibbi.txt
+git commit -m "added new change to nibbi"
+git log
+vim nibba.txt
+git add nibba.txt
+git commit -m "added nibba changes"
+git branch
+git checkout -b dev
+touch babu.txt
+git add babu.txt
+git commit -m "added babu"
+git checkout master
+git log
+git checkout dev
+git branch
+git checkout -b tester
+git log --oneline
+history

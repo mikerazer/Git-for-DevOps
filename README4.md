@@ -6,3 +6,4 @@ This is new file for git-for-devops
       Branch
       Marketing
       CI/CD
+      Video Tutorial
